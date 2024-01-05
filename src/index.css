@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+body {
+  background-color: #101010;
+}
+
+/* Header & Navbar */
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  display: flex;
+}
+
+
+/* Home section */
+
+#home {
+  min-height: 100vh;
+}
