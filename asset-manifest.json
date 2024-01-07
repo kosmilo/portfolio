@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.42d7e299.css",
+    "main.js": "/portfolio/static/js/main.be195b5c.js",
+    "static/media/pets-vs-bots-gameplay.mp4": "/portfolio/static/media/pets-vs-bots-gameplay.9a596a6431f10dd8c5ae.mp4",
+    "static/media/upsidedown-gameplay.mp4": "/portfolio/static/media/upsidedown-gameplay.378dd3ec2db054439c69.mp4",
+    "static/media/exodus-server-puzzle.png": "/portfolio/static/media/exodus-server-puzzle.f33273c9f886f0dab055.png",
+    "static/media/pumpkin-head-gameplay.mp4": "/portfolio/static/media/pumpkin-head-gameplay.ecb8df2a5fefc9228816.mp4",
+    "static/media/web-portfolio.png": "/portfolio/static/media/web-portfolio.41906580aa8d6501999c.png",
+    "static/media/text-adventure.png": "/portfolio/static/media/text-adventure.f9d0149293e17cd28e14.png",
+    "index.html": "/portfolio/index.html",
+    "main.42d7e299.css.map": "/portfolio/static/css/main.42d7e299.css.map",
+    "main.be195b5c.js.map": "/portfolio/static/js/main.be195b5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42d7e299.css",
+    "static/js/main.be195b5c.js"
+  ]
+}
