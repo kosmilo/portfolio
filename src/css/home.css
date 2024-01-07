@@ -59,6 +59,8 @@ h1 {
 }
 
 .scroll-hint {
+  z-index: -5;
+  position: relative;
   margin-top: 80px;
 }
 

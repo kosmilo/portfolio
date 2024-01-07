@@ -53,7 +53,7 @@ const Navbar = () => {
           <li>
             <a
               onClick={() => {
-                setIsOpen(false);
+                toggleNav();
               }}
               href="#home"
             >
@@ -63,7 +63,7 @@ const Navbar = () => {
           <li>
             <a
               onClick={() => {
-                setIsOpen(false);
+                toggleNav();
               }}
               href="#projects"
             >
