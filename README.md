@@ -1,5 +1,5 @@
-## Portfolio website made with React
+## Portfolio website
 
-A simple portfolio website made with React. 
+A personal portfolio website showcasing some of my previous projects. 
 
-Used create-react-app.
+Made with React (create-react-app). Used react-tsparticles and hamburger-react packages.

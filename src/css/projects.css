@@ -1,0 +1,88 @@
+#projects-bg {
+  background-color: rgb(26, 26, 26);
+
+  -webkit-box-shadow: 0px -5px 19px 4px rgba(255, 0, 0, 1);
+  -moz-box-shadow: 0px -5px 19px 4px rgba(255, 0, 0, 1);
+  box-shadow: 0px 5px 20px 4px rgba(255, 0, 0, 0.6),
+    0px 10px 59px 10px rgba(255, 44, 33, 0.6);
+
+  border-top: solid 1px rgb(36, 8, 8);
+}
+
+#projects {
+  padding-top: 80px;
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+.tabs {
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.tabs button {
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: 1px solid rgb(165, 36, 36);
+  background: none;
+  transition: background-color 0.6s ease-in-out;
+}
+
+.tabs button.selected {
+  background: rgb(165, 36, 36);
+}
+
+.tabs button:hover {
+  background: rgb(206, 41, 41);
+}
+.project-list {
+  margin-top: 34px;
+  padding: 0px 24px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 86px;
+}
+
+.project-card {
+  min-height: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  gap: 36px;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-card .text h3 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.project-card .text p {
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.project-card .text a {
+  color: rgb(218, 56, 56);
+}
+
+.project-card .text a:hover {
+  color: rgb(255, 107, 107);
+}
+
+@media only screen and (max-width: 1080px) {
+  .project-card,
+  .project-card.odd {
+    grid-template-columns: 1fr;
+  }
+}
