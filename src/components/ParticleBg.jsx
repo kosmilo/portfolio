@@ -32,7 +32,7 @@ const ParticleBg = () => {
           enable: true,
           value_area: 1080,
         },
-        limit: 0,
+        limit: 50,
         value: 5,
       },
       opacity: {

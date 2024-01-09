@@ -42,6 +42,7 @@ const Projects = () => {
       status: "Ongoing",
       tools: "VS Code",
       langs: "C#",
+      github: "https://github.com/kosmilo/TextAdventure",
       description:
         "This text-based horror game is still in development. It takes inspiration from old text-based adventure games, and runs on the Windows console. ",
     },
@@ -63,6 +64,7 @@ const Projects = () => {
       graphic: webPortfolioImg,
       tools: "VS Code",
       langs: "Javascript (React)",
+      github: "https://github.com/kosmilo/portfolio",
       description: "This one-page portfolio was made with React. ",
     },
     {
