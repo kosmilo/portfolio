@@ -1,0 +1,23 @@
+.post-link a:hover::after,
+.post-link a:focus::after {
+    font-family: sans-serif;
+    content: "<";
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 1rem;
+    animation-name: linkarrowleftrightmove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes linkarrowleftrightmove {
+    0% {
+        transform: translateX(8px);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(8px);
+    }
+}
