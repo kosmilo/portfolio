@@ -13,7 +13,7 @@ import Layout from "./Components/Layout";
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio/">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route element={<Layout />}>

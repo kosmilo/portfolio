@@ -18,7 +18,7 @@ const Home = () => {
                 </h1>
                 <p>
                     and I'm a game and software developer from Finland. I also go by the alias Kosmilo. Here I've collected some of my
-                    projects, blog posts and other relevant and not-so-relevant-but-still-kinda-fun content.
+                    projects and other relevant and not-so-relevant-but-still-kinda-fun content.
                 </p>
                 <p>milokoskela@gmail.com</p>
 
