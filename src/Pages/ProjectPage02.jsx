@@ -9,16 +9,13 @@ const Project02 = () => {
             <h1>Exodus: Escape from the Lab</h1>
             <div className="project-page-content">
                 <p>
-                    <i>Exodus: Escape from the Lab</i> is a puzzle horror game where the
-                    player is trying to escape an underground laboratory while avoiding
-                    the dangerous results of failed human experiments. This was a school
-                    project, where I was mainly responsible for the enemy and two of the
-                    puzzles.
+                    <i>Exodus: Escape from the Lab</i> is a puzzle horror game where the player is trying to escape an underground
+                    laboratory while avoiding the dangerous results of failed human experiments. This was a school project, where I was
+                    mainly responsible for the enemy and two of the puzzles.
                 </p>
                 <p>
-                    This was the third game I've made, and the first 3D game I worked on.
-                    There was still much learning when developing, and there are many
-                    things I would do differently now.
+                    This was the third game I've made, and the first 3D game I worked on. There was still much learning when developing, and
+                    there are many things I would do differently now.
                 </p>
                 <ul className="project-status">
                     <li>Status: Finished (Unreleased)</li>

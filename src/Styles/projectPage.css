@@ -4,12 +4,30 @@
     align-content: flex-start;
 }
 
-.projectImage {
+img, video {
+    border-radius: 1rem;
+}
+
+video {
+    max-width: 100%;
+}
+
+/* for individual video elements*/
+.video-container {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 2rem auto;
+}
+
+/* for individual image elements*/
+.project-image {
     max-width: 100%;
     max-height: 80vh;
     display: block;
 }
 
+/* for multiple images in a row*/
 .image-container {
     max-width: 100%;
     display: flex;
@@ -22,10 +40,35 @@
     align-self: start;
 }
 
-.text-image-container {
+.content-container-left-lean {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-container-right-lean {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Add to pre before code */
+.code-block {
+    background-color: #0f0f0f;
+    padding: 1.4rem 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 0.8rem;
+    overflow-x: scroll;
+    width: 100%;
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.code-block::-webkit-scrollbar {
+    display: none;
 }
 
 .project-status {

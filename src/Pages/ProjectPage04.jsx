@@ -7,24 +7,23 @@ const Project04 = () => {
         <>
             <h1>Pets VS Bots</h1>
             <div className="project-page-content">
-                <div className="text-image-container">
+                <div className="content-container-left-lean">
                     <div>
-                        <p>
-                            This game was made over a weekend for MixJam 2023, where I was
-                            given themes 'guns', 'robot' and 'animals'. It's a wave-based
-                            shooter with two types of robot enemies.
-                        </p>
-                        <p>
-                            The end result ended up being rather buggy due the short
-                            timeframe, but it was a good learning experiment.
-                        </p>
                         <ul className="project-status">
                             <li>Status: Finished</li>
                             <li>Tools and Software: Unity, Blender</li>
                             <li>Languages: C#</li>
                         </ul>
+                        <p>
+                            This game was made over a weekend for MixJam 2023, where I was given themes 'guns', 'robot' and 'animals'. It's
+                            a wave-based shooter with two types of robot enemies.
+                        </p>
+                        <p>The end result ended up being rather buggy due the short timeframe, but it was a good learning experiment.</p>
+                        <p>
+                            The game is up on <a href="https://kosmilo.itch.io/pets-vs-bots">Itch.io</a>.
+                        </p>
                     </div>
-                    <img src={petsVSBots01} className="projectImage" />
+                    <img src={petsVSBots01} className="project-image" />
                 </div>
             </div>
         </>

@@ -24,7 +24,7 @@ const App = () => {
                         path="/projects/exodus-escape-from-the-lab"
                         element={<Project02 />}
                     />
-                    <Route path="/projects/pumpkin-head" element={<Project03 />} />
+                    <Route path="/projects/shelving" element={<Project03 />} />
                     <Route path="/projects/pets-vs-bots" element={<Project04 />} />
                     <Route path="/projects/untitled-text-game" element={<Project05 />} />
                     <Route path="/projects/upside-down" element={<Project06 />} />

@@ -8,30 +8,24 @@ const Project01 = () => {
         <>
             <h1>Bad Trip</h1>
             <div className="project-page-content">
-                <div className="text-image-container">
+                <div className="content-container-left-lean">
                     <div>
                         <p>
-                            <i>Bad Trip</i> is a Subway Surfers -style actions runner
-                            spiced with sick music and surfing. The game is currently in
-                            development, and we plan on releasing it for Android.
+                            <i>Bad Trip</i> is a Subway Surfers -style actions runner spiced with sick music and surfing. The game is
+                            currently in development, and we plan on releasing it for Android.
                         </p>
                         <p>
-                            I have worked on a handfull of things in the project, from
-                            player movement to the in-game shop, though I'd say my biggest
-                            contributions have been integrading Unity's Addressables to
-                            the project and handling additive scene loading to reduce load
-                            times.
+                            I have worked on a handfull of things in the project, from player movement to the in-game shop, though I'd say
+                            my biggest contributions have been integrading Unity's Addressables to the project and handling additive scene
+                            loading to reduce load times.
                         </p>
                         <p>
-                            I joined midway through the development, and I'm currently the
-                            only programmer on the team. Which, I suppose, also makes me
-                            the lead programmer by techicality. 🤔
+                            I joined midway through the development, and I'm currently the only programmer on the team. Which, I suppose,
+                            also makes me the lead programmer by techicality. 🤔
                         </p>
                         <p>
-                            The game has a devlog at{" "}
-                            <a href="https://itch.io/t/2789776/bad-trip-wip">Itch.io</a>{" "}
-                            where you can find more information on our current progress as
-                            well as other people developing the game.
+                            The game has a devlog at <a href="https://itch.io/t/2789776/bad-trip-wip">Itch.io</a> where you can find more
+                            information on our current progress as well as other people developing the game.
                         </p>
                         <ul className="project-status">
                             <li>Status: In development</li>

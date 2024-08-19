@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../Styles/projects.css";
 import exodusImg from "../assets/ExodusEscapeFromTheLab02.png";
 import badTripImg from "../assets/BadTrip02.png";
-import pumpkinHeadImg from "../assets/pumkinHead.png";
+import shelvingImg from "../assets/Shelving01.png";
 import petsVSBotsImg from "../assets/PetsVSBots01.png";
 import textAdventureImg from "../assets/TextAdventure02.png";
 import upsideDownImg from "../assets/UpsideDown02.png";
@@ -14,8 +14,7 @@ const projectList = [
         url: "bad-trip",
         description: "Level-based runner",
         image: badTripImg,
-        imageAlt:
-            "Screenshot from the game Bad Trip featuring player character surfing between rocks.",
+        imageAlt: "Screenshot from the game Bad Trip featuring player character surfing between rocks.",
         tags: ["Team"],
     },
     {
@@ -23,26 +22,23 @@ const projectList = [
         url: "exodus-escape-from-the-lab",
         description: "Puzzle horror game",
         image: exodusImg,
-        imageAlt:
-            "Dirty laboratory room from the game Exodus: Escape from the Lab with the player's inventory on the side.",
+        imageAlt: "Dirty laboratory room from the game Exodus: Escape from the Lab with the player's inventory on the side.",
         tags: ["Team"],
     },
     {
-        name: "Pumpkin Head",
-        url: "pumpkin-head",
-        description: "Halloween-themed platformer",
-        image: pumpkinHeadImg,
-        imageAlt:
-            "Screenshot from the game Pumpkin Head featuring a pumkin headed character falling down.",
-        tags: ["Published", "Solo"],
+        name: "Shelving",
+        url: "shelving",
+        description: "A game made in 3 hours and 20 minutes for Trijam #283",
+        image: shelvingImg,
+        imageAlt: "Screenshot from the game.",
+        tags: ["GameJam", "Published", "Solo"],
     },
     {
         name: "Pets VS Bots",
         url: "pets-vs-bots",
         image: petsVSBotsImg,
         description: "Game entry for MixJam 2023",
-        imageAlt:
-            "Screenshot from the game Pets VS Bots featuring a low poly cat with two guns on it's back.",
+        imageAlt: "Screenshot from the game Pets VS Bots featuring a low poly cat with two guns on it's back.",
         tags: ["GameJam", "Published", "Solo"],
     },
     {
@@ -56,8 +52,7 @@ const projectList = [
     {
         name: "Upside Down",
         url: "upside-down",
-        description:
-            "Puzzle platformer build around the mechanic of being able to reverse gravity",
+        description: "Puzzle platformer build around the mechanic of being able to reverse gravity",
         image: upsideDownImg,
         imageAlt: "Screenshot from the game Upside Down featuring one of the puzzles.",
         tags: ["Published", "Solo"],
@@ -71,10 +66,8 @@ const Projects = () => {
         if (selectedTags.includes(tag)) {
             setSelectedTags(selectedTags.filter((t) => t !== tag));
         } else {
-            if (selectedTags.includes("Team") && tag == "Solo")
-                setSelectedTags([...selectedTags.filter((t) => t !== "Team"), tag]);
-            else if (selectedTags.includes("Solo") && tag == "Team")
-                setSelectedTags([...selectedTags.filter((t) => t !== "Solo"), tag]);
+            if (selectedTags.includes("Team") && tag == "Solo") setSelectedTags([...selectedTags.filter((t) => t !== "Team"), tag]);
+            else if (selectedTags.includes("Solo") && tag == "Team") setSelectedTags([...selectedTags.filter((t) => t !== "Solo"), tag]);
             else {
                 setSelectedTags([...selectedTags, tag]);
             }

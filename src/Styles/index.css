@@ -14,6 +14,10 @@
     scroll-behavior: smooth;
 }
 
+main {
+    padding-bottom: 2rem;
+}
+
 #root {
     height: 100vh;
 }
@@ -34,8 +38,22 @@ button {
     padding: 0.2rem 0.5rem;
 }
 
-p {
-    margin-bottom: 14px;
+p,
+blockquote {
+    margin-bottom: 1.2rem;
+}
+
+blockquote {
+    font-style: italic;
+    margin-left: 1.6rem;
+}
+
+blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
 }
 
 h1,
@@ -82,7 +100,7 @@ a:focus {
     margin: auto;
 }
 
-.content-halved>* {
+.content-halved > * {
     width: 50%;
 }
 
@@ -145,7 +163,7 @@ a:focus {
         width: 100%;
     }
 
-    .content-halved>* {
+    .content-halved > * {
         width: 100%;
     }
 
